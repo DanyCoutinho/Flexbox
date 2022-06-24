@@ -2,11 +2,13 @@
 
 .container {
     display: flex;
-    height: 500px;
+    height: 700px;
     background-color: aliceblue;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-end;
 }
 
 .container div {
@@ -19,4 +21,17 @@
     font-size: 20px;
     justify-content: center;
     align-items: center;
+}
+
+.div4 {
+    align-self: flex-start;
+    order: 0;
+}
+
+.div3 {
+    order: -1;
+}
+
+.div2 {
+    order: 1;
 }
