@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.container {
+    display: flex;
+    height: 500px;
+    background-color: aliceblue;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container div {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
